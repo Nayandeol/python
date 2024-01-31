@@ -1,0 +1,14 @@
+student1={}
+for i in range(0,2):
+    name=input("Enter name of the student class A:")
+    age=int(input("Enter age of the student:"))
+    grade=input("Enter grade of the student:")
+    student1[name]=age,grade
+student2={}
+for i in range(0,2):
+    name=input("Enter name of the student class A:")
+    age=int(input("Enter age of the student:"))
+    grade=input("Enter grade of the student:")
+    student2[name]=age,grade
+res=student1|student2
+print("The combined dictonary:",res)
