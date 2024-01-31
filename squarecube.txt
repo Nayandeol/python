@@ -1,0 +1,5 @@
+n=int(input("enter a value\n"))
+A=n*n
+B=n*A
+Result=n+A+B
+print(Result)
